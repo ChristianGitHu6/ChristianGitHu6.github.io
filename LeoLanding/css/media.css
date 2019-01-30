@@ -1,0 +1,183 @@
+
+@font-face {
+    font-family: 'MrsEavesItalic';
+    src: url('../fonts/MrsEavesItalic_Italic.ttf');
+
+}
+
+@font-face {
+    font-family: 'segoe-wp-light';
+    src: url('../fonts/segoe-wp-light.ttf');
+
+}
+@font-face {
+    font-family: 'SegoeWPN';
+    src: url('../fonts/SegoeWPN.woff');
+
+}
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadProRegular.ttf');
+
+}
+
+/*MEDIA QUERIES*/
+
+/*change in grid css*/
+@media(max-width: 1000px){
+	body {
+   		 margin: 0!important;
+	}
+	#login h1{
+
+		 font-size: 18px;
+	}
+}
+@media (min-width: 1200px){
+#login .col-xl-5 {
+   flex: 0 46.666667%;
+    max-width: 46.666667%;
+}
+}
+@media (min-width: 992px){
+	#login .col-lg-5 {
+	flex: 0 44.666667%;
+    max-width: 44.666667%;
+	}
+}
+/* /////////////////*/
+
+
+
+
+
+@media(max-width: 790px){
+	#header .text-center{
+		text-align: center;
+	}
+
+	#header .justify-center{
+		justify-content: center;
+	}
+	#header .text-right{
+		float: none;
+	}
+	#header .coffeeTitle{
+		margin-top: 0;
+	}
+	#header .coffeeTitle h2{
+		font-size: 24px;
+	}
+	#header .coffeeTitle h3{
+		font-size: 18px;
+	}
+	.item img{
+
+		width: 100%;
+	}
+}
+
+
+@media(max-width: 767px){
+	#content h4 {
+    font-weight: 900;
+    font-size:3.5vw;
+	}	
+	#content p{
+	font-weight: 900;
+    font-size:3vw;
+	}
+	#menu ul{
+		max-height: 0px;
+		display: block;
+		transition: 0.5s;
+	}
+	.showing{
+		max-height: 20em!important;
+	    transition: 2s;
+	}
+	#menu  {
+		background-color: #352215;
+		color: black;
+		z-index: 9999;
+		position: absolute;
+	    width: 100%;
+	    text-align: center;
+	 transition: 0.5s;
+	}
+	.menu-toggle{
+		float: right;
+		position: relative;
+	    z-index: 9999;
+	}
+	#header ul{
+		margin: 0!important;
+	}
+	#header .coffee img{
+	width: 200px;
+	}
+	#header .coffee-row {
+	  margin-top: 133px;
+	}
+	#header li {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	}
+	#header .coffeeTitle {
+	    padding-left: 10px;
+	   
+	}
+	#login .row-parent{
+		justify-content: center!important;
+	}
+	#login .logsubstr{
+		margin-top: 30px;
+	}
+	.log1,.log2{
+	    justify-content: space-around!important;
+	}
+	.foo-center{
+		text-align: center;
+	}
+
+
+}
+
+@media(max-width: 500px){
+	#login input[type="text"],#login input[type="email"] {
+    margin-bottom: 11px;
+    margin-top: 11px;
+	}
+	#login .log1,#login .log2,#login input{
+	 	display: block!important;
+    	margin: 0 auto;
+    	text-align: center;
+	}
+	#login .logsubstr {
+    height: max-content!important;
+	}
+	#header .coffee-row {
+    margin-top: 113px;
+		}
+	#header .coffee img {
+   		 width: 170px;
+	}
+	#header .coffeeTitle {
+    padding-left: 5px;
+   
+	}
+	.tabs h1 {
+    font-size: 6vw!important;
+	}
+	.tabs p {
+    font-size: 4vw!important;
+	}
+}
+
+
+@media(max-width: 309px){
+	
+	#header {
+    height: 608px;
+	}
+}	
