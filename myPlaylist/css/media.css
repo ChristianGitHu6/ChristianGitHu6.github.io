@@ -1,0 +1,106 @@
+@media screen and (max-width: 675px) {
+
+		.menu-setting button > div{
+		    width: 8px;
+		    height: 8px;
+		}
+
+		.nav-bar{
+			padding: 0 5px;
+			height: 60px;
+		}
+
+		.nav-bar > li {
+		    width: 50px;
+		}
+		
+		.menu-title h1{
+			font-size: 20px;
+		    font-weight: 100;
+		}
+
+		.menu-icon button > div{
+			width: 37px;
+		    height: 3px;
+		    margin-bottom: 3.5px;
+		    background-color: #C2C2C2;
+		    border-radius: 19px;
+		}
+
+		.music-range {
+   			margin-top: 70px;
+   		}
+
+		.music-range > li h3 {
+			font-size: 13px;
+		}
+
+		.media-panel {
+			font-size: 0.7em;
+	   		height: min-content;
+		}
+
+		.control-buttons button {
+	        width: 42px;
+	        height: 31px;
+		}
+
+		.media-panel .control-buttons {
+	   		border-left: none;
+	    	width: 180px;
+		}
+
+		.control-buttons .play{
+	        height: 48px;
+	        width: 53px;
+		}
+
+		.control-buttons .play {
+		    margin-left: 5px;
+		    margin-right: 5px;
+		}
+
+		.media-panel .menu-setting {
+	        width: 27px;
+		}
+
+		.music-info h4 {
+   			max-width: 79%;
+   		}
+
+   		.music-info {
+  		  padding: 10px;
+  		}
+}
+
+
+
+
+@media screen and (max-width: 420px) {
+	.music-range > li {
+		width: 35%;
+	}
+
+	.media-panel .control-buttons {
+		display: table-footer-group;
+	}
+	.control-buttons .play {
+     margin-left: 15px; 
+     margin-right: 15px; 
+	}
+}
+
+
+
+@media screen and (min-width: 1000px) {
+
+	.music-range > li {
+	    display: inline-block;
+	    text-align: center;
+	    width: 23%;
+	    /*width: 30.4%;*/
+	}
+	
+		
+}
+

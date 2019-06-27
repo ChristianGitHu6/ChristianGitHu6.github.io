@@ -1,0 +1,318 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #DBDBDB;
+}
+
+h1,h2,h3,h4,h5,h6,span{
+	font-family: 'Noto Sans HK', sans-serif;
+    color: #DBDBDB;
+}
+
+button{
+    font-size: inherit;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+button:focus {
+    outline:0;
+}
+
+.content{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2B2B2B;
+}
+
+/*head*/
+
+.nav-bar{
+    width: 100%;
+    display: table;
+    height: 90px;
+    vertical-align: middle;
+    table-layout: fixed;
+    text-align: center;
+}
+
+.nav-bar > li{
+	display: table-cell;
+    vertical-align: middle;
+    width: 67px;
+}
+
+
+/*hambureger menu*/
+.menu-icon button > div{
+    width: 46px;
+    height: 4px;
+    margin-bottom: 4px;
+    background-color: #C2C2C2;
+    border-radius: 15px;
+}
+
+.menu-icon button{
+    vertical-align: middle;
+}
+
+.menu-link a {
+    width: 100%;
+    height: 90%;
+    background-image: url(../img/imusic.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+
+
+/*title menu*/
+.menu-title{
+	text-align: center;
+	color: white;
+}
+
+.nav-bar .menu-title{
+    width: auto;
+}
+
+.menu-title h1{
+	font-size: 43px;
+    font-weight: 100;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-bottom: 5px;    
+}
+
+
+/*menu search*/
+
+.menu-search button{
+    width: 90%;
+    height: 90%;
+    background-image: url(../img/search-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/*menu setting*/
+
+.nav-bar .menu-setting button{
+    padding: 10px 20px;
+}
+
+.menu-setting button > div{
+    width: 10px;
+    height: 10px;
+    margin-bottom: 6px;
+    background-color: #C2C2C2;
+    border-radius: 20px;
+}
+
+
+
+
+
+/*content*/
+
+.music-range{
+    text-align: center;
+    margin-top: 95px;
+    margin-bottom: 200px;
+}
+
+.music-range > li{
+	display: inline-block;
+    text-align: center;
+    width: 26.7%;
+    margin: 11px;
+}
+
+.music-range > li h3{
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #0d0d0d;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.music-range img{
+	padding: 11px;
+    background-color: #343434;
+	width: 100%;
+}
+
+.music-range li > button{
+    width: 100%;
+}
+
+
+
+/*footer*/
+
+.footer{
+	width: 100%;
+	background-color: #2B2B2B;
+    position: fixed;
+    bottom: 0;
+}
+
+
+/*progress-bar*/
+
+.progress-bar{
+    margin-top: 5px;
+    width: 100%;
+    height: 17px;
+    padding: 0px;
+    border: 6px solid;
+    background-color: white;
+}
+
+.pointer{
+    position: relative;
+	width: 50%;
+    height: 100%;
+    background-color: #2196f3;
+}
+
+.progress-bar button {
+    position: absolute;
+    margin-top: -9px;
+    right: -11px;
+    height: 23px;
+    width: 23px;
+    border-radius: 33px;
+    border: 2px solid #fff;
+    background-color: #2196f3;
+}
+
+.progress-bar button{
+	color: #DBDBDB;
+}
+
+.duration-value{
+    padding: 0 5px;
+    color: #DBDBDB;
+}
+
+.duration{
+	float: right;
+}
+
+.current{
+    float: left;
+}
+
+
+/*media panel*/
+
+.media-panel{
+	height: 120px;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.media-panel > li{
+	display: table-cell;
+	vertical-align: middle;
+	border: 2px groove #3e3b3b;
+    border-bottom: none;
+	text-align: center;
+}
+
+
+.media-panel .control-buttons{
+   border-left: none;
+   width: 293px;
+}
+
+.control-buttons button{
+    width: 80px;
+    height: 56px;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+}
+
+.control-buttons .prev{
+    background-image: url(../img/prev.png);
+}
+
+.control-buttons .play{
+    height: 77px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url(../img/play.png);
+}
+
+.control-buttons .next{
+    background-image: url(../img/next.png);
+}
+
+
+.music-info{
+    position: relative;
+    width: auto;
+	background-color: #4D4D4D;
+    padding: 13px;
+}
+
+.music-info h3{
+    margin-bottom: 8px;
+}
+
+.music-info h4 {
+    max-width: 80%;
+    float: left;
+}
+
+.music-info .song-duration{
+    float: left;
+    color: #c7dfe6;
+}
+
+.music-info  .triangle{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-top: 25px solid #7e7e7e;
+    border-left: 25px solid transparent;
+
+}
+
+.music-info h3,.music-info h4{
+    color: #c7dfe6;
+    text-align: left;
+    overflow: hidden;
+    font-weight: 400;
+	white-space: nowrap;  
+	text-overflow: ellipsis;
+}
+
+.media-panel .menu-setting{
+    border-right: none;
+	width: 42px;
+}
