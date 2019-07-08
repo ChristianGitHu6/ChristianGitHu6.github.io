@@ -1,0 +1,113 @@
+.folder-list li:hover .folder-title  {
+	background-color: #2b2b2b;
+	color: #fff;
+}
+
+.folder-list li:hover .folder-title button{
+	color: #fff;
+}
+
+.pre-folders button:hover  {
+	background-color: #2b2b2b;
+}
+
+
+.folder-list > li:hover .folder-title:before{
+	 background-image: url(../img/folder-blue.png);
+}
+
+.folder-list > li:hover > .pre-folders{
+	height: 100px!important;
+	overflow:auto;
+} 
+
+
+.nav-box .menu-list > li a:hover{
+	box-shadow: 0 3px #008bdc;
+	color: #fff;
+	font-weight: 600;
+}    
+
+
+.media .add-btn:hover > .wrapper-add{
+	height: 186px;
+}
+
+.music-list-range > li:hover{
+	background-color: #008bdc;
+}
+
+.music-list-range > li:hover:before{
+	content: '';
+	counter-increment: section;         
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(../img/play-icon.png);
+    background-position: center;
+}
+
+.music-list-range > li:hover .add_button{
+	content: ''; 
+    width: 50px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../img/plus.png);
+}
+
+.range .pointer:hover .pointer-hover-duration{
+	display: inline-block;
+}
+
+
+.music-list-range > li:hover > div{
+    border-right: 1px solid #131313;
+}
+
+.images-range  > li:first-child:hover{
+/*	transform: rotate3d(0, 1, 0, 360deg);*/
+}
+
+.list-pages > li:hover a{
+	color: #fff;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+
+/*  hover sidebar */
+.sidebar-menu {
+    height: auto;
+    width: 78px;
+    top: 55px;
+    background: url(../img/logo.png) no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-position: bottom;
+    z-index: 10000;
+    overflow: hidden;
+    background-color: #1d1d1d;
+	transition: 0.5s width cubic-bezier(0.35, 0.07, 0.09, 0.99);
+}
+.sidebar-menu > div{
+	display: none;
+}
+
+.sidebar-menu:hover{
+	height: 100%;
+	top: 0;
+    width: 56%;
+	background: linear-gradient(#424242,#2b2b2b);
+}
+.sidebar-menu:hover div{
+	display: block;
+}
+/**/
+}

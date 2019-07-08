@@ -1,0 +1,203 @@
+@media screen and (max-width: 1040px) {
+
+.group-info .group-story {
+	display: table-caption;
+	width: 100%;
+}
+
+.group-info .group-images{
+	display: table-footer-group;
+	text-align: center;
+}
+
+.group-images .images-range > li:first-child {
+	float: none;
+	box-sizing: content-box;
+    padding: 0 7px 0 7px;
+    width: 136px;
+    height: 88px;
+    display: inline-block;
+
+}
+
+  
+.albums {
+ 	display: table-caption;
+    width: 100%;
+    text-align: center;
+}
+
+.albums ul > li {
+    width: 22%;
+	height: auto;
+}
+
+.media .music-name {
+    width: 76px;
+ }
+
+ .music-name .now-playing{
+ 	display: none;
+ }
+
+.group-story p {
+	font-size: 14px;
+    max-height: 134px;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+.music-list-range {
+   padding: 0px;
+}
+
+.sidebar-menu .logo {
+    margin: 0 auto;
+    width: 68px;
+    padding-left: 0px;
+}
+
+.sidebar-menu .logo  img{
+	max-width: 100%;
+}
+
+
+.song-progress-bar .song-icon{
+	display: none;
+}
+
+.media-panel{
+	padding: 0px;
+}
+
+
+
+.right-border{
+	display: none;
+}
+
+.albums ul > li img {
+    border: 5px solid #2c2c2c;
+}
+
+.albums ul > li {
+    width: 19%;
+ }
+
+.library-title span {
+    font-size: 22px;
+}
+
+.library-img {
+    display: none!important;
+}
+    
+.library-title{
+	text-align: center;
+}
+
+
+.main-section {
+	padding-left: 0px;
+    padding-right: 0px;
+}
+
+.folders {
+   padding-left: 0;
+}
+
+
+.media .music-name {
+	display: none;
+}
+
+.media .autoplay-btn {
+	display: none;
+}
+
+.media .volume-bar {
+	display: none;
+}
+
+header{
+    z-index: 100000;
+}
+
+.menu-list a {
+    font-size: 19px;
+}
+
+.menu-list > li{
+	border-bottom: 1px solid #131313;
+    box-shadow: 0 1px #585858;
+}
+
+.sidebar-article {
+    margin-top: 8px;
+}
+
+.main-section {
+    padding-top: 112px;
+}
+
+.header-section{
+	padding-left: 0;
+}
+
+.radio-live p {
+    white-space: unset;
+    padding: 10px;
+}
+
+.group-story {
+    padding: 3px 5px;
+}
+
+.group-heading h1 {
+    font-size: 20px;
+}
+
+.group-heading {
+	font-size: 13px;
+    padding: 19px 6px;
+ }
+
+.header-right-section {
+	border-bottom: 1px solid gray;
+    width: 100%;
+    display: table-caption;
+}
+
+
+.add-btn .wrapper-add {
+	left: auto;
+	right: 0;
+}
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+.albums ul > li {
+    width: 25%;
+}
+
+.media .control-buttons {
+    width: 100%;
+    display: table-caption;
+    text-align: center;
+    padding-bottom: 7px;
+	border-bottom: 1px solid #131313;
+    box-shadow: 0 1px #585858; }
+
+}
