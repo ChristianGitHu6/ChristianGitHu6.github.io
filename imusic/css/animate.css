@@ -79,12 +79,12 @@
 
 
 
-@media screen and (max-width: 800px) {
+
 
 
 /*  hover sidebar */
+/*@media screen and (max-width: 800px) {
 .sidebar-menu {
-    cursor: pointer;
     height: auto;
     width: 78px;
     top: 55px;
@@ -110,5 +110,64 @@
 .sidebar-menu:hover div{
 	display: block;
 }
-/**/
+}*/
+
+
+
+/*@media screen and (max-width: 800px) {
+.sidebar-menu {
+    height: auto;
+    width: 100%;
+    z-index: 10000;
+    background-color: #1d1d1d;
 }
+
+.sidebar-menu .logo{
+	display: none;
+}
+
+.sidebar-menu .sidebar-article{
+	display: none;
+}
+
+.sidebar-menu .folder-list{
+	display: table;
+	width: 100%;
+}
+
+.sidebar-menu  .folders {
+	padding: 10px 0;
+  }
+
+.pre-folders{
+	display: none;
+	background-color: #606060;
+    width: 142px;
+    left: 0;
+    top: 100%;
+    position: absolute;
+}
+
+.folder-list > li{
+    padding: 0 6px;
+	display: table-cell;
+	border-right: 1px solid #131313;
+    box-shadow: 1px 0px #585858;
+}
+
+.folders .folder-list > li:before {
+    display: none;
+}
+.folder-title {
+     padding: 0 10px;
+}
+
+.main-section{
+	padding-bottom: 200px;
+}
+
+.radio-live{
+	display: none;
+}
+
+}*/

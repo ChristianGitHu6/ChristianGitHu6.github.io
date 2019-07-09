@@ -113,12 +113,12 @@ a{
 }
 
 .sidebar-menu {
-	    cursor: pointer;
     padding-top: 56px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 275px;
+    z-index: 1000;
 	height: 100%;
     background: linear-gradient(#424242,#2b2b2b);
 }

@@ -52,34 +52,69 @@
 
 @media screen and (max-width: 800px) {
 
-.music-list-range {
-   padding: 0px;
+header{
+    z-index: 100000;
+}
+
+
+.header-section{
+	padding-left: 0;
+}
+
+.right-border{
+	display: none;
+}
+
+.sidebar-menu {
+	border-top: 1px solid;
+    width: 100%;
+	padding-bottom: 53px;
+    height: 140px;
+    bottom: 0;
+    top: auto;
+    padding-top: 0;
+    overflow: auto;
+    background: linear-gradient(#1d1c1c,#2b2b2b);
 }
 
 .sidebar-menu .logo {
-    margin: 0 auto;
-    width: 68px;
-    padding-left: 0px;
+	padding-left: 9px;
+    position: fixed;
+    width: 54px;
+    z-index: 100000;
 }
 
 .sidebar-menu .logo  img{
 	max-width: 100%;
 }
 
+.folders {
+	height: auto;
+    width: 50%;
+    margin-left: auto;
+    padding: 0;
+} 
 
-.song-progress-bar .song-icon{
+.folder-list .folder-title > button{
+  padding: 7px 0 7px 32px;
+  height: auto;
+  font-size: 14px;
+}
+
+.pre-folders button {
+    line-height: 27px;
+    font-size: 13px;
+}
+
+.radio-live{
 	display: none;
 }
 
-.media-panel{
-	padding: 0px;
+.sidebar-article {
+ display: none;
 }
 
 
-
-.right-border{
-	display: none;
-}
 
 .albums ul > li img {
     border: 5px solid #2c2c2c;
@@ -105,12 +140,32 @@
 .main-section {
 	padding-left: 0px;
     padding-right: 0px;
+	padding-top: 58px;
+	padding-bottom: 246px;
 }
 
-.folders {
-   padding-left: 0;
+.music-list-range {
+   padding: 0px;
 }
 
+.menu-list a {
+    font-size: 19px;
+}
+
+.menu-list > li{
+	border-bottom: 1px solid #131313;
+    box-shadow: 0 1px #585858;
+}
+
+
+
+.song-progress-bar .song-icon{
+	display: none;
+}
+
+.media-panel{
+	padding: 0px;
+}
 
 .media .music-name {
 	display: none;
@@ -124,35 +179,7 @@
 	display: none;
 }
 
-header{
-    z-index: 100000;
-}
 
-.menu-list a {
-    font-size: 19px;
-}
-
-.menu-list > li{
-	border-bottom: 1px solid #131313;
-    box-shadow: 0 1px #585858;
-}
-
-.sidebar-article {
-    margin-top: 8px;
-}
-
-.main-section {
-    padding-top: 112px;
-}
-
-.header-section{
-	padding-left: 0;
-}
-
-.radio-live p {
-    white-space: unset;
-    padding: 10px;
-}
 
 .group-story {
     padding: 3px 5px;
@@ -198,6 +225,13 @@ header{
     text-align: center;
     padding-bottom: 7px;
 	border-bottom: 1px solid #131313;
-    box-shadow: 0 1px #585858; }
+    box-shadow: 0 1px #585858; 
+}
+
+.sidebar-menu {
+	padding-bottom: 90px;
+    height: 167px;
+}
+
 
 }
