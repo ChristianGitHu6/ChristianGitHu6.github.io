@@ -72,4 +72,17 @@
 		</div>
 	</footer>
 </body>
+<script>
+    var loginButton = document.getElementById("send")
+    
+    loginButton.onclick = function(){
+      var forms = document.getElementById("login").elements
+      var mailField = forms.namedItem("text").value;
+      var passwordField = forms.namedItem("password").value;
+
+      alert("your email - " + mailField + "\n" + 
+            "your password - " + passwordField);
+    }
+
+ </script>
 </html>
