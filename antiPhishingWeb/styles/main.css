@@ -308,3 +308,39 @@ ol > li:before {
 #spoofing blockquote{
   color: #285ae6;
 }
+
+footer{
+  background-color: white;
+  padding: 50px;
+}
+
+.phone, .email{
+  box-sizing: content-box;
+  width: 200px;
+  display: inline-block;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.tint{
+  color: skyblue;
+  text-decoration: underline;
+}
+
+footer .title{
+    display: inline-block;
+    width: 65%;
+}
+
+.footer-image{
+  width: 29%;
+  height: auto;
+  float: right;
+  display: inline-block;
+}
+
+.footer-image img{
+  width: 100%;
+    border-radius: 19px;
+}
